@@ -115,58 +115,81 @@
                                 <img src="../assets/img/fml-logo-full.png" alt="" class="img-fluid">
                             </div>
 
-                            <h2 class="title">Tagline
+                            <h2 class="title">Foundry-ML - Data, Models, Science
                             </h2>
 
-                           
+
 
                             <div class="content">
-                                <p>
-                                    Short Summary of what Foundry-ML is
-                                </p>
+
 
                                 <p>
-                                    Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in
-                                    accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate
-                                    cupiditate.
+                                    Foundry-ML is a platform to discover and share machine learning ready datasets. To
+                                    use
+                                    data, load it directly into a DataFrame with Python and it's ready to go!
                                 </p>
 
-                                
 
-                                <h3>Problem it solves</h3>
-                                <p>
-                                    Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut
-                                    rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui.
-                                    Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est
-                                    libero eum nesciunt aliquid qui.
-                                    Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia
-                                    aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima.
-                                    Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam
-                                    rerum dolores sint consequatur quidem ea.
-                                    Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem.
-                                    Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
-                                </p>
-                                
 
-                                <h3>How Foundry-ML Solves the problem</h3>
+                                <h3>The Problem With the Current State of ML Data</h3>
                                 <p>
-                                    Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In
-                                    assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro
-                                    autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore.
-                                    Autem facilis hic dolorum dolores vel.
-                                    Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis
-                                    quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam
-                                    ut illum ut a quam vitae.
+                                    Many datasets used in Machine Learning research are not fully accessible to the
+                                    public.
+                                    This makes it difficult to reproduce research and build off of it.
+
+                                    The reasons people can't access it usually come down to the same reasons.
+                                <ol>
+                                    <li>The infrastructure isn't there to share it. ML requires large datasets and many
+                                        common infrastructures aren't capable of accommodating that.</li>
+                                    <li>There's no context as to what's going on in the data. People will just dump
+                                        their data online without any thought to how it can be interpretted by someone
+                                        else. Most of the time, it can't.</li>
+                                    <li>The data has no structure and isn't formatted uniformly. The time it takes
+                                        someone to clean up a datset to get it to a place where the data is actually
+                                        usable can be weeks to months.</li>
+                                    <li>The data isn't ready to used in a ML workflow. Once the data is structured,
+                                        formatted, and cleaned, it still needs more work to be ready for a ML work
+                                        environment.</li>
+                                </ol>
+
+
+                                There is a lot of data in the world, but without proper context, cleaning,
+                                formatting, and the infrastructure to actually share it, people can't use it.
                                 </p>
-                                <h3>Funding info/shoutouts to collaborators</h3>
+
+
+                                <h3>Where Foundry-ML Comes In</h3>
                                 <p>
-                                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas
-                                    incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                                    Foundry-ML solves each of those issues:
+                                <ol>
+                                    <li>Our infrastructure is capable of transferring terebytes worth of data. We use
+                                        Globus behind the scenes to make this possible. </li>
+                                    <li>We have required metadata for every dataset includes dataset keys with a
+                                        description of each one, data type, data size, and many more fields that make
+                                        understanding the data trivial.</li>
+                                    <li>Each dataset fits our structure and format standards, making it easy to
+                                        use and ready to go in a ML environment. You can load the data directly
+                                        into a DataFrame and start coding!</li>
+
+                                </ol>
+
+                                </p>
+                                <h3>Acknowledgements</h3>
+                                <p>This work is a collaboration between the University of Chicago, Argonne National Lab,
+                                    and the University of Wisconsin - Madison.</p>
+                                <p>
+                                    This work was supported by the National Science Foundation under NSF Award Number:
+                                    1931306 "Collaborative Research: Framework: Machine Learning Materials Innovation
+                                    Infrastructure".</p>
+
+                                <p>This work was performed under financial assistance award 70NANB14H012 from U.S.
+                                    Department of Commerce, National Institute of Standards and Technology as part of
+                                    the Center for Hierarchical Material Design (CHiMaD).
                                 </p>
 
                             </div><!-- End post content -->
 
-                        
+
 
                         </article><!-- End blog post -->
 
@@ -179,12 +202,21 @@
                         <div class="sidebar">
 
                             <div class="sidebar-item">
-                                <h3 class="sidebar-title">Publications</h3>
-                                <div class="mt-3">
-                                    <h5><a href="">Paper title that is descriptive</a></h5>
-
-
+                                <h3 class="sidebar-title">Resources</h3>
+                                <div class="mt-2 mb-4">
+                                    <h5><a href="">Website</a></h5>
+                                    <h5><a href="">GitHub Repo</a></h5>
                                 </div>
+                                <h4 class="sidebar-title">Medium Articles</h4>
+                                <div class="mt-2 mb-4">
+                                    <h5><a
+                                            href="https://medium.com/towardsdev/access-large-scientific-datasets-the-easy-way-foundry-ml-d89a126d9f50">Access
+                                            Large, Scientific Datasets the Easy Way: Foundry-ML</a></h5>
+                                    <h5><a
+                                            href="https://medium.com/@kj_schmidt/the-future-of-sharing-large-scientific-datasets-is-here-97d575de58ec">The
+                                            Future of Sharing Large, Scientific Datasets is Here</a></h5>
+                                </div>
+
 
                             </div><!-- End sidebar recent posts-->
 
@@ -210,7 +242,7 @@
                         <span>Accelerate</span>
                     </a>
                     <p>A team of scientists and engineers creating software to accelerate science in materials,
-                        chemistry, and beyond..</p>
+                        chemistry, and beyond.</p>
 
                 </div>
 
