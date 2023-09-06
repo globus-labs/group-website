@@ -128,18 +128,18 @@
 
                                 <h3>The Problems with the ML Landscape Today</h3>
                                 <p>
-                                <h4>Reproducibility </h4>
+                                <h5 class=" mb-1">Reproducibility </h5>
                                 Reproducing someone else's work is extremely time consuming in the best case scenario
-                                and impossible in the worst case and most common scenario. Researchers struggle to
+                                and impossible in the worst case (and most common) scenario. Researchers struggle to
                                 share all of their code and data in a way that other's can actually use it and reproduce
                                 their work.
-                                <h4>Accessibility</h4>
+                                <h5 class="mt-3 mb-1">Accessibility</h5>
                                 Code and data are very rarely fully available to the public, and many require compute
                                 that most people don't have access to.
-                                <h4>Quality</h4>
+                                <h5 class="mt-3 mb-1">Quality</h5>
                                 You can't tell if code runs until you spend hours getting the environment up and running
                                 to test it. That wasted time adds up after a few repos that just don't work.
-                                <h4>Community</h4>
+                                <h5 class="mt-3 mb-1">Community</h5>
                                 Finding and connecting with people working on similar or relevant problems to you can be
                                 difficult.
 
@@ -148,56 +148,76 @@
 
                                 <h3>How Garden addresses these issues</h3>
                                 <p>
-                                <h4>Reproducibility </h4>
-                                You have all the pieces to reproduce and build off of any Garden
-                                <h4>Accessibility</h4>
-                                Code, data, testing- all of this is available and free. No barriers to access
-                                Run models using our compute resources at UChicago or any FuncX endpoint
-                                <h4>Quality</h4>
-                                Test and evaluate models without the time investment of doing it all yourself
-                                <h4>Community</h4>
-                                Find your ML community, collaborate, and set new benchmarks in your domain
+                                <h5 class="mb-1">Reproducibility </h5>
+                                You have all the pieces to reproduce and build off of any Garden. We've found that just
+                                having a model file won't get you to where you want to go-
+                                there's a lot more code that goes into reproducing an ML pipeline to get the desired
+                                output. A Garden includes:
+                                <li>Links to data</li>
+                                <li>Groups of models</li>
+                                <li>Functions that are necessary to the ML pipeline</li>
+                                <li>Automated quality testing</li>
+                                <li>Citable objects for the Garden and each model</li>
+                                <li>Anything else a model needs to run and be evaluated</li>
+                                <h5 class="mt-3 mb-1">Accessibility</h5>
+                                All code, data, testing is available and free without any barriers to access.
+                                You can run models using our compute resources at UChicago or any Globus Compute
+                                endpoint.
+                                <h5 class="mt-3 mb-1">Quality</h5>
+                                We test and evaluate models on our side, so you can browse research without the time
+                                investment of doing all of that yourself.
+                                <h5 class="mt-3 mb-1">Community</h5>
+                                Garden is a collaborative platform that connects like-minded people. Find your ML
+                                community, collaborate, and set new benchmarks in your domain.
 
-                                <p>We've found that just having a model file won't get you to where you want to go-
-                                    there's a lot more code that goes into reproducing an ML pipeline to get the desired
-                                    output. A Garden includes:
-                                    <li>Links to data</li>
-                                    <li>Groups of models</li>
-                                    <li>Functions that are necessary to the ML pipeline</li>
-                                    <li>Automated quality testing</li>
-                                    <li>Citable objects for the Garden and each model</li>
-                                    <li>Anything else a model needs to run and be evaluated</li>
-                                </p>
+
 
 
                                 </p>
                                 <h3>How Will People Use Garden</h3>
                                 <p>
-                                    We have four users in mind while creating Garden, and there is always the
+                                    We have users in mind while creating Garden, and there is always the
                                     possibility of adding more! Here are a few users to give you an idea of how people
                                     will use Garden.
 
-                                <h4>Consumer</h4>
+                                <h5 class="mb-1">Consumer</h5>
                                 I want to find models that address a specific problem of interest in my domain.
 
-                                <h4>Publisher</h4>
+                                <h5 class="mt-3 mb-1">Publisher</h5>
                                 I have multiple ML models that center around a problem. I want them to be published
                                 and discovered together.
 
-                                <h4>Educator</h4>
+                                <h5 class="mt-3 mb-1">Educator</h5>
                                 My students are creating models that target a certain problem, and I want to
                                 showcase their work in one collection.
 
-                                <h4>Collaborator</h4>
+                                <h5 class="mt-3 mb-1">Collaborator</h5>
                                 I have a model that aims to solve problem of interest in my domain. I want to add it
                                 to others' solutions so it can be evaluated alongside them.
 
                                 </p>
-                                <h3>Funding/shoutouts to collaborators</h3>
-                                <p>
-                                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas
-                                    incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                                <h3>Acknowledgements</h3>
+                                <h5>Garden is funded by:</h5>
+
+                                <p>National Science Foundation -
+                                    Award Abstract #2209892: “Frameworks: Garden: A FAIR Framework for Publishing and
+                                    Applying AI Models for Translational Research in Science, Engineering, Education,
+                                    and Industry”
                                 </p>
+
+                                <h5>This project builds upon work including:</h5>
+
+                                <p>The Materials Data Facility (MDF) -
+                                    NIST-supported effort to build data services to help material scientists publish and
+                                    discover data</p>
+
+                                <p>Foundry-ML -
+                                    An open source machine learning platform for scientists</p>
+
+                                <p>Globus -
+                                    Research cyberinfrastructure, developed and operated as a not-for-profit service by
+                                    the
+                                    University of Chicago</p>
 
                             </div><!-- End post content -->
 
@@ -212,9 +232,9 @@
                         <div class="sidebar">
 
                             <div class="sidebar-item">
-                                <h3 class="sidebar-title">Publications</h3>
+                                <h3 class="sidebar-title">Resources</h3>
                                 <div class="mt-3">
-                                    <h5><a href="">Paper title that is descriptive</a></h5>
+                                    <h5><a href="https://github.com/Garden-AI/garden">GitHub Repo</a></h5>
 
 
                                 </div>
