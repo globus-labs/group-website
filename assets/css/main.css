@@ -826,7 +826,7 @@ section {
 
 .stats-counter .stats-item .purecounter {
   min-width: 90px;
-  padding-right: 15px;
+
 }
 
 .stats-counter .stats-item i {
@@ -847,6 +847,7 @@ section {
   margin: 0;
   font-family: var(--font-primary);
   font-size: 14px;
+  margin-left: 15px;
 }
 
 /*--------------------------------------------------------------
