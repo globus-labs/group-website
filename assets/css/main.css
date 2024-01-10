@@ -971,27 +971,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Services Section
+# Our products Section
 --------------------------------------------------------------*/
-.services {
+.products {
   padding: 60px 0;
 }
 
-.services .service-item {
+.products .product-item {
   padding: 40px;
   background: #fff;
   height: 100%;
   border-radius: 10px;
 }
 
-.services .service-item .icon {
+.products .product-item .icon {
   width: 48px;
   height: 48px;
   position: relative;
   margin-bottom: 50px;
 }
 
-.services .service-item .icon i {
+.products .product-item .icon i {
   color: var(--color-default);
   font-size: 56px;
   transition: ease-in-out 0.3s;
@@ -999,7 +999,7 @@ section {
   position: relative;
 }
 
-.services .service-item .icon:before {
+.products .product-item .icon:before {
   position: absolute;
   content: "";
   height: 100%;
@@ -1012,7 +1012,7 @@ section {
   transition: 0.3s;
 }
 
-.services .service-item h3 {
+.products .product-item h3 {
 
   font-weight: 700;
   margin: 0 0 20px 0;
@@ -1024,63 +1024,63 @@ section {
   transition: 0.3s;
 }
 
-.services .service-item p {
+.products .product-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item .readmore {
+.products .product-item .readmore {
   margin-top: 15px;
   display: inline-block;
   color: var(--color-primary);
 }
 
-.services .services-mdf .service-item:hover .icon:before {
+.products .products-mdf .product-item:hover .icon:before {
   background: var(--color-mdf);
 }
 
-.services .services-mdf .service-item:hover h3 {
+.products .products-mdf .product-item:hover h3 {
   border-color: var(--color-mdf);
 }
 
-.services .services-garden .service-item:hover .icon:before {
+.products .products-garden .product-item:hover .icon:before {
   background: var(--color-garden);
 }
 
-.services .services-garden .service-item:hover h3 {
+.products .products-garden .product-item:hover h3 {
   border-color: var(--color-garden);
 }
 
-.services .services-foundry .service-item:hover .icon:before {
+.products .products-foundry .product-item:hover .icon:before {
   background: var(--color-foundry);
 }
 
-.services .services-foundry .service-item:hover h3 {
+.products .products-foundry .product-item:hover h3 {
   border-color: var(--color-foundry);
 }
 
-.services .services-moment .service-item:hover .icon:before {
+.products .products-moment .product-item:hover .icon:before {
   background: var(--color-moment);
 }
 
-.services .services-moment .service-item:hover h3 {
+.products .products-moment .product-item:hover h3 {
   border-color: var(--color-moment);
 }
 
-.services .services-ai .service-item:hover .icon:before {
+.products .products-ai .product-item:hover .icon:before {
   background: rgb(179, 140, 238);
 }
 
-.services .services-ai .service-item:hover h3 {
+.products .products-ai .product-item:hover h3 {
   border-color: rgb(179, 140, 238);
 }
 
-.services .services-data .service-item:hover .icon:before {
+.products .products-data .product-item:hover .icon:before {
   background: var(--color-secondary);
 }
 
-.services .services-data .service-item:hover h3 {
+.products .products-data .product-item:hover h3 {
   border-color: var(--color-secondary);
 }
 
